@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWave Solutions</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/footer.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo" >CodeWave Solutions</div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="cabecalho__menu" id="cabecalhoMenu">
+                <a href="#home" class="cabecalho__menu__link" >Home</a>
+                <a href="empresa.html" class="cabecalho__menu__link" >Empresa</a>
+                <a href="projetos.html" class="cabecalho__menu__link" >Produtos</a>
+                <a href="contato.html" class="cabecalho__menu__link" >Contato</a>
+        </nav>
+    </header>
+    <main class="home" >
+        <div class="home-image" >
+            <img src="images/homefundo.avif">
+        </div>
+        <section class="home-coteudo" >
+            <h1>Soluções digitais para o crescimento do seu negócio</h1>
+            <h2>Criamos sites e sistemas personalizados para empresas que querem evoluir no digital.</h2>
+            <a href="contato.html" class="btn-home" >Fale conosco</a>
+        </section>
+    </main>
+    <footer class="main-footer" >
+        <div class="sobre-footer" >
+            <h1>CodeWave Solutions</h1>
+            <h2>Soluções digitais modernas para impulsionar o seu negócio.</h2>
+        </div>
+        <div class="contact-footer">
+            <div class="contact__footer__item" >
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <p>Garça-SP</p>
+                </div>
+            </div>
+            <div class="contact__footer__item">
+                <i class="fa-solid fa-mobile"></i>
+                <div>
+                    <p>(19) 9999-9999</p>
+                </div>
+            </div>
+            <div class="contact__footer__item" >
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <p> CodeWaveSolutions12@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons-footer" >
+            <h2>Siga-me</h2>
+            <div class="social-icons-itens"  >
+                <a href="#"  class="social-btn" ><i class="fa-brands fa-github"></i></a>
+                <a href="#"  class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"  class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"  class="social-btn"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="second-footer" >
+        <div class="credits-footer" >
+            <p>© 2026 CodeWave Solutions - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+            const cabecalhoMenu = document.getElementById("cabecalhoMenu");
+            menuToggle.addEventListener("click", () => {
+                cabecalhoMenu.classList.toggle("aberto");
+            });
+            document.querySelectorAll(".cabecalho__menu__link").forEach(link => {
+                link.addEventListener("click", () => {
+                    cabecalhoMenu.classList.remove("aberto");
+                });
+            });
+    </script>
+</body>
+</html>

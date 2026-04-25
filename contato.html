@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo" >CodeWave Solutions</div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="cabecalho__menu" id="cabecalhoMenu">
+                <a href="index.html" class="cabecalho__menu__link" >Home</a>
+                <a href="empresa.html" class="cabecalho__menu__link" >Empresa</a>
+                <a href="projetos.html" class="cabecalho__menu__link" >Produtos</a>
+                <a href="#contato" class="cabecalho__menu__link" >Contato</a>
+        </nav>
+    </header>
+    <main class="contato" >
+        <section class="contato-titulo" >
+            <h1>Entre em contato</h1>
+            <p>Estamos prontos para transformar sua ideia em realidade.</p>
+        </section>
+        <section class="contato-info" >
+            <div class="contato-info-itens">
+                <div class="itens-titulo">
+                    <i class="fa-solid fa-mobile"></i>
+                    <H2>LIGUE PARA NÓS</H2>
+                </div>
+                <DIV>
+                    <p>(19) 9999-9999</p>
+                </DIV>
+            </div>
+            <div class="contato-info-itens">
+                <div class="itens-titulo">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Localização</h2>
+                </div>
+                <div>
+                    <p>Garça-SP</p>
+                </div>
+            </div>
+            <div class="contato-info-itens">
+                <div class="itens-titulo">
+                    <i class="fa-regular fa-calendar-xmark"></i>
+                    <h2>HORÁRIO COMERCIAL</h2>
+                </div>
+                <P>Seg-Sex.... 10h-20h, Sab-Dom.... Fechado</P>
+            </div>
+        </section>
+        <section class="contato-formulario" >
+            <div class="div-form" >
+                <form action="https://formspree.io/f/mvzdalzn" method="POST">
+                    <label for="">Mande uma mensagem!</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome:" required>
+                    <input type="email" name="email" placeholder="Digite o email:" required>
+                    
+                    <textarea name="mensagem" placeholder="Digite sobre seu projeto:" required></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer" >
+        <div class="sobre-footer" >
+            <h1>CodeWave Solutions</h1>
+            <h2>Soluções digitais modernas para impulsionar o seu negócio.</h2>
+        </div>
+        <div class="contact-footer">
+            <div class="contact__footer__item" >
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <p>Garça-SP</p>
+                </div>
+            </div>
+            <div class="contact__footer__item">
+                <i class="fa-solid fa-mobile"></i>
+                <div>
+                    <p>(19) 9999-9999</p>
+                </div>
+            </div>
+            <div class="contact__footer__item" >
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <p> CodeWaveSolutions12@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons-footer" >
+            <h2>Siga-me</h2>
+            <div class="social-icons-itens"  >
+                <a href="#"  class="social-btn" ><i class="fa-brands fa-github"></i></a>
+                <a href="#"  class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"  class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"  class="social-btn"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="second-footer" >
+        <div class="credits-footer" >
+            <p>© 2026 CodeWave Solutions - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+            const cabecalhoMenu = document.getElementById("cabecalhoMenu");
+            menuToggle.addEventListener("click", () => {
+                cabecalhoMenu.classList.toggle("aberto");
+            });
+            document.querySelectorAll(".cabecalho__menu__link").forEach(link => {
+                link.addEventListener("click", () => {
+                    cabecalhoMenu.classList.remove("aberto");
+                });
+            });
+    </script>
+</body>
+</html>
