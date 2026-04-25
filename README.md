@@ -16,12 +16,17 @@ Objetivo:
 Desenvolver um site institucional completo, aplicando conceitos de responsividade e organização de código.
 
 Previem:
+### Home
 ![Home](assets/Home.png)
+### Empresa
 ![Empresa](assets/Empresa.png)
 ![Empresa1](assets/Empresa2.png)
 ![Empresa](assets/Empresa3.png)
+### Produto
 ![Produto](assets/Projeto.png)
+### Contato
 ![Contato](assets/Contato.png)
+### Footer
 ![Footer](assets/Footer.png)
 Prototipo canva:
 
