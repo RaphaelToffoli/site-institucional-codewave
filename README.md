@@ -7,7 +7,20 @@ Tecnologias utilizadas:
 - JavaScript
 
 Funcionalidades:
--Layout parcialmente responsivo(Mobile)
--Menu mobile(Hamburgúer)
--Seções: Home, Empresa, Produtos e Contato
--Formulário de contato(Funcional)
+- Layout parcialmente responsivo(Mobile)
+- Menu mobile(Hamburgúer)
+- Seções: Home, Empresa, Produtos e Contato
+- Formulário de contato(Funcional)
+
+Objetivo:
+Desenvolver um site institucional completo, aplicando conceitos de responsividade, organização de código e boas práticas de desenvolvimento web.
+
+Previem:
+
+Prototipo canva:
+
+Como executar
+Abra o arquvi index.html em seu navegador.
+
+Autor:
+Raphael Toffoli da Silva Nobrega
