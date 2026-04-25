@@ -22,6 +22,7 @@ Previem:
 ![Empresa](assets/Empresa3.png)
 ![Produto](assets/Projeto.png)
 ![Contato](assets/Contato.png)
+![Footer](assets/Footer.png)
 Prototipo canva:
 
 Como executar
