@@ -16,12 +16,12 @@ Objetivo:
 Desenvolver um site institucional completo, aplicando conceitos de responsividade e organização de código.
 
 Previem:
-![Home](assets/home.png)
-![Empresa](assets/empresa.png)
-![Empresa1](assets/empresa2.png)
-![Empresa](assets/empresa3.png)
-![Produto](assets/projeto.png)
-![Contato](assets/contato.png)
+![Home](assets/Home.png)
+![Empresa](assets/Empresa.png)
+![Empresa1](assets/Empresa2.png)
+![Empresa](assets/Empresa3.png)
+![Produto](assets/Projeto.png)
+![Contato](assets/Contato.png)
 Prototipo canva:
 
 Como executar
