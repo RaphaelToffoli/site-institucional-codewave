@@ -1,5 +1,5 @@
 # site-institucional-codewave
-Projeto de um site institucional responsivo desenvolvido como teste prático, com foco em layout moderno, organização e experiência do usuário.
+Projeto de um site institucional responsivo desenvolvido como teste prático.
 
 Tecnologias utilizadas:
 - HTML5
@@ -13,7 +13,7 @@ Funcionalidades:
 - Formulário de contato(Funcional)
 
 Objetivo:
-Desenvolver um site institucional completo, aplicando conceitos de responsividade, organização de código e boas práticas de desenvolvimento web.
+Desenvolver um site institucional completo, aplicando conceitos de responsividade e organização de código.
 
 Previem:
 
