@@ -5,3 +5,9 @@ Tecnologias utilizadas:
 - HTML5
 - CSS3
 - JavaScript
+
+Funcionalidades:
+-Layout parcialmente responsivo(Mobile)
+-Menu mobile(Hamburgúer)
+-Seções: Home, Empresa, Produtos e Contato
+-Formulário de contato(Funcional)
