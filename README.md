@@ -29,7 +29,7 @@ Previem:
 ### Footer
 ![Footer](assets/Footer.png)
 Prototipo canva:
-
+https://canva.link/cjm9dsldyg0pgcv
 Como executar
 Abra o arquvi index.html em seu navegador.
 
