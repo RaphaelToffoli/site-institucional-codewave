@@ -32,7 +32,7 @@ Prototipo canva:
 https://canva.link/cjm9dsldyg0pgcv
 
 Como executar
-Abra o arquvi index.html em seu navegador.
+Abra o arquivo index.html em seu navegador.
 
 Autor:
 Raphael Toffoli da Silva Nobrega
