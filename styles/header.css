@@ -14,12 +14,11 @@
     z-index: 1000;
 }
 .cabecalho.ativo{
-    background: var(--cor-fundo);
+    background: transparent;
 }
 .logo{
     font-size: 25px;
     color: white;
-    font-family: var(--fonte-link-menu);
     text-decoration: none;
     font-weight: bold;
 }
@@ -32,10 +31,9 @@
     text-decoration: none;
     color: white;
     font-weight:500px;
-    font-family: var(--fonte-link-menu);
 }
 .cabecalho__menu__link:hover{
-    color:var(--cor-logo) ;
+    color: black;
     text-decoration: underline;
     transition: 1s;
 }
