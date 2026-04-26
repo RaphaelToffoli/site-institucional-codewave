@@ -31,8 +31,10 @@ Previem:
 Prototipo canva:
 https://canva.link/cjm9dsldyg0pgcv
 
-Como executar
+Como executar:
 Abra o arquivo index.html em seu navegador.
+Ou acesse o link:
+https://raphaeltoffoli.github.io/site-institucional-codewave/
 
 Autor:
 Raphael Toffoli da Silva Nobrega
